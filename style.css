@@ -93,3 +93,9 @@ p{
     color: var(--nav-active);
     text-shadow: 0px 0px 2px black, 0px 0px 15px white;
 }
+
+.spotlight{
+    background-color: var(--spotlight);
+    padding-bottom: 15px;
+    overflow: auto;
+}
