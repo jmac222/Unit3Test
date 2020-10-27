@@ -1,3 +1,14 @@
+:root{
+    --html-background: rgb(246, 177, 177);
+    --shadow: rgb(51, 51, 51);
+    --nav-active: rgb(220, 27, 27);
+    --spotlight: rgb(171, 171, 171);
+    --text-background: rgb(211, 211, 211);
+    --text-color: rgb(111, 111, 111);
+}
+
+
+
 article, aside, figcaption, figure,
 footer, header, main, nav, section { 
     display: block;
@@ -35,3 +46,50 @@ nav a {
     text-decoration: none;
 }
 
+html{
+    background-color: var(--html-background);
+    font-size: 12px;
+    font-family: Verdana, Geneva,       sans-serif;
+}
+
+body{
+    background-color: white;
+    max-width: 1024px;
+    margin: 0 auto;
+    box-shadow: var(--shadow) 10px 10px 25px, var(--shadow) -10px 10px 25px;
+}
+
+body > header{
+    background-color: white;
+    width: 100%;
+}
+
+#logoImage{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: 15px 15px 15px 15px;
+}
+
+.top ul li{
+    margin: 10px 10px 10px 10px;
+}
+
+.top ul li a{
+    color: white;
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5% 0% 5% 0;
+}
+
+.top ul li a:hover{
+    color: var(--nav-active);
+    text-shadow: 0px 0px 2px black, 0px 0px 15px white;
+}
